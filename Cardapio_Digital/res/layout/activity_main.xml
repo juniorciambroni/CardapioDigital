@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/image"
+    android:orientation="horizontal" >
+
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
+        android:layout_width="457dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:focusable="true" >
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/pizzas" />
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/bebidas" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/sobremesas" />
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/porcoes" />
+
+        <ImageButton
+            android:id="@+id/btnsobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/sobre" />
+
+        <ImageButton
+            android:id="@+id/btndesenv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/desenvolvedor" />
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
+
+    <ImageView
+        android:id="@+id/promocao"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/marguerita" />
+
+</LinearLayout>

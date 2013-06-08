@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Cardapio_Digital</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btn1">Botão 1</string>
+    <string name="btn2">Botão 2</string>
+    <string name="btn3">Botão 3</string>
+    <string name="btn4">Botão 4</string>
+   
+</resources>
